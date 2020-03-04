@@ -6,10 +6,11 @@
     <link type="text/css" rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="text-center">
+    <div class="header text-center">
     <h1>Rental Simulation</h1>
     <p class="lead">Do a simulation to know how much you'll pay for a rent and where all your money is going !</p>
     </div>
+    <div class="card form-center bg-mine" style="max-width: 45rem;">
     <form class="needs-validation" novalidate></form>
     <div id="car" class="form-group">
       <h4>Car informations : </h4>      
@@ -24,11 +25,11 @@
       <input class="js-name form-control" type="text" placeholder="Driver name" required/>
       <div class="invalid-feedback">Please enter a valid name.</div>
       <div class="row">
-        <div class="col-md-6 mb-3">
+        <div class="col-md-6">
           <input class="js-begin form-control" type="date" placeholder="Rental begin date" required/>
           <div class="invalid-feedback">Please enter a valid date.</div>
         </div>
-        <div class="col-md-6 mb-3">
+        <div class="col-md-6">
           <input class="js-end form-control" type="date" placeholder="Rental end date" required/>
           <div class="invalid-feedback">Please enter a valid date.</div>
         </div>
@@ -38,8 +39,9 @@
       <label for="deductible">Deductible option</label> 
       <input class="js-option" id ="deductible" type="checkbox" placeholder="Deductible option"/>
     </div>
-    <button id="compute" type="submit" class="btn btn-outline-primary">Compute</button>
+    <button id="compute" type="submit" class="btn btn-outline-mine">Compute</button>
     </form>
+    </div>
     <div id="actors"></div>
     <script src="virtuo.js"></script>
     <script src="index.js"></script>

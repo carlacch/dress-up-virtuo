@@ -1,5 +1,38 @@
-body{
-    margin-left: 10em;
-    margin-right: 10em;
-    margin-top: 3em;
+/*body{
+    background-color: #f3f3f3;
+}*/
+
+.form-center{    
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: auto;
+    margin-top: 1em;
 }
+
+div.header {
+    padding: 1em;
+    background-color: #96e0fd;
+    color: #39393adc;
+}
+
+.btn-outline-mine{
+    background-color: white;
+    color: #96e0fd;
+    border-color: #96e0fd;
+}
+.btn-outline-mine:hover{color:#fff;background-color:#96e0fd;border-color:#96e0fd}
+
+.btn-outline-mine.focus,
+
+.bg-mine{
+    background-color:#f3f3f3!important
+}
+
+/*
+.bg-secondary{background-color:#6c757d!important}
+a.bg-secondary:focus,
+a.bg-secondary:hover,
+button.bg-secondary:focus,
+button.bg-secondary:hover{background-color:#545b62!important}*/
